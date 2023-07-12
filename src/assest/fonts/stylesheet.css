@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url("./SANFRANCISCO-BOLD.OTF");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("./SANFRANCISCO-SEMIBOLD.OTF");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("./SANFRANCISCO-MEDIUM.OTF");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("./SANFRANCISCO-LIGHT.OTF");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    src: url("./SANFRANCISCO-THIN.OTF");
+    font-weight: 300;
+}
