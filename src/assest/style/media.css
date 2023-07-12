@@ -1,0 +1,14 @@
+@media screen and (max-width:2000px){
+    .diffrent_img_body {
+        width: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .normal_img_body{
+        width: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
