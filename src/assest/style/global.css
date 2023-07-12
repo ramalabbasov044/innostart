@@ -74,6 +74,7 @@ header{
 footer{
     width: 100%;
     background-color: #000053;
+    font-family: "Space Grotesk";
 }
 
 .footerTop{
@@ -83,12 +84,37 @@ footer{
 }
     
 .footerText{
-    max-width: 328px;
+    max-width: 323px;
     color: #FFF;
     font-size: 15.059px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 25.816px;
     letter-spacing: -0.161px;
-    font-family: "San Francisco";
+    margin-top: 14px;
+}
+
+.footerBottom{
+    padding: 29.02px 138px 24.98px 153px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberBody{
+    display: flex;
+    gap: 20.86px;
+}
+
+.social-media{
+    display: flex;
+    gap: 37.55px;
+}
+
+
+.numberBody p{
+    color: #FFF;
+    font-size: 15.688px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.213px;
 }
