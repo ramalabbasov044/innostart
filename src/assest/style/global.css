@@ -118,3 +118,70 @@ footer{
     font-weight: 300;
     line-height: 25.213px;
 }
+
+
+.menu-icon{
+    display: none;
+  }
+
+
+  /* Hamburger Menu */
+
+.menu-icon {
+    cursor: pointer;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    left: -75%;
+    width: 75%;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px 60px 40px 20px;
+    box-sizing: border-box;
+    z-index: 999;
+    transition: left 0.5s;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .close-icon {
+    cursor: pointer;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 30px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 17.822px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.387px; 
+  }
+
+
+  .fa-close:before, .fa-multiply:before, .fa-remove:before, .fa-times:before, .fa-xmark:before{
+    font-size: 30px;
+  }
+  

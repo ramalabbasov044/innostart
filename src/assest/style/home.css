@@ -66,7 +66,7 @@ main{
 
 .man-bg{
     top: 13%;
-    width: 440.668px;
+    width: 100%;
     height: 454.243px;
     position: absolute;
     background: radial-gradient(50.00% 50.00% at 50.00% 50.00%, rgba(255, 129, 0, 0.45) 0%, rgba(255, 129, 0, 0.00) 100%);
@@ -114,7 +114,10 @@ main{
 
 .normald_img_body {
     width: 40.7%;
-    height: 484px;
+    min-height: 484px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .shared_box{
@@ -285,7 +288,9 @@ main{
 .mentors_main{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
 }
 
 .mentors_card{
@@ -348,39 +353,6 @@ main{
 /* Owl Carousel */
 
 
-
-#left{
-    position: absolute;
-    top: 42%;
-    cursor: pointer;
-    left: 23px;
-}
-
-#right{
-    position: absolute;
-    top: 42%;
-    cursor: pointer;
-    right: 23px;
-}
-
-.arrow-left{
-    position: absolute;
-    width: 336px;
-    height: 416px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
-    border-radius: 15px;
-}
-
-.arrow-right{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 336px;
-    height: 416px;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%);
-    border-radius: 15px;
-}
-
 .organizers_body{
     width: 100%;
     padding: 0px 176px 236.56px 176px;
@@ -427,4 +399,85 @@ main{
 
 .bg5{
     background-image: url('../images/image/map.svg');
+}
+
+
+
+
+/* Slider */
+
+    .owl-carousel .slide img {
+    width: 100%;
+  }
+  
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .owl-carousel .owl-nav button.owl-prev {
+    left: 10px;
+  }
+  
+  .owl-carousel .owl-nav button.owl-next {
+    right: 10px;
+  }
+
+  .arrow-left{
+    color: #fff;
+    width: 57px;
+    font-size: 57px;
+  }
+
+  .arrow-right{
+    color: #fff;
+    font-size: 57px;
+  }
+
+  .owl-stage-outer{
+    position: relative;
+  }
+
+  .owl-carousel .owl-loaded .owl-drag {
+    position: relative;
+  }
+
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    width: 336px;
+    height: 416px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    width: 100%;
+  }
+
+  .center2{
+    display: flex;
+    gap: 86px;
+    width: 100%;
+  }
+  .mentors_card_image{
+        border-radius: 6.63px;
+  }
+
+
+
+.mentors_main{
+
 }

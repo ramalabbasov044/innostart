@@ -1,0 +1,40 @@
+main{
+    padding: 0px 64px 64px 144px;
+    font-family: 'San Francisco';
+}
+
+.main_top{
+    width: 100%;
+    height: 110px;
+    background-image: url('../images/tedbirler_bg.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.main_head_text{
+    color: #313131;
+    font-size: 58.046px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65.227px;
+}
+
+.main_bold_text{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.3509760797023773px;
+    text-align: left;
+    color: #000000;
+}
+
+.main_normal_text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.11240410804748535px;
+    text-align: left;
+    color: #000000;
+}
