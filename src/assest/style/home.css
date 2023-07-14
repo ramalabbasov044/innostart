@@ -530,3 +530,7 @@ html {
   .content:hover > * {
     transform: translateY(0px);
   }
+
+  .linkedln{
+    color: white;
+  }
