@@ -287,6 +287,9 @@
         padding-right: 100px;
         padding-left: 60px;
     }
+    .mentors_card_name{
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width:760px){

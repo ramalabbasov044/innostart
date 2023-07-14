@@ -6,6 +6,10 @@ main{
     font-weight: 700;
     font-style: normal;
 }
+
+html {
+    scroll-behavior: smooth
+    }
  /* box1  share */
 .box1{
     width: 100%;
@@ -58,7 +62,7 @@ main{
 
 .box1_right {
     position: relative;
-    animation: myAnimation 2s infinite;
+    animation: myAnimation 4s infinite;
   }
   
   @keyframes myAnimation {
@@ -126,7 +130,7 @@ main{
     min-height: 484px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .shared_box{
@@ -303,16 +307,18 @@ main{
 }
 
 .mentors_card{
+    width: 190px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    position: relative;
 }
 
 .mentors_card_name{
     color: #313131;
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: 43.406px;
@@ -486,3 +492,41 @@ main{
   }
 
 
+  .content {
+    width: 159px;
+    height: 159px;
+    top: 0%;
+    left: 7.6%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .content:hover {
+    opacity: 1;
+  }
+  
+  .fa-brands .fa-linkedin::before {
+    font-size: 40px;
+  }
+  
+  .linkedln {
+    font-size: 30px;
+    color: rgb(30, 48, 80);
+  }
+  
+  .content > * {
+    transform: translateY(45px);
+    transition: transform 0.6s;
+  }
+  
+  .content:hover > * {
+    transform: translateY(0px);
+  }
