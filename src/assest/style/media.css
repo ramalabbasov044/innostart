@@ -215,6 +215,9 @@
     .normal_right_body a{
         display: none;
     }
+    .block{
+        display: block !important;
+    }
     .normal_head_name{
         color: #313131;
         font-size: 30px;

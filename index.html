@@ -13,6 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
     <body>
         <header>
@@ -117,31 +118,35 @@
                 <div class="normal_body shared_box pad_one ">
                     <img class="straight" src="./src/assest/icon/straight/straight.svg" alt="">
 
-                    <div class="center">
-                        <div class="normal_img_body bg1"></div>
-
-                        <div class="normal_right_body">
-                            <p class="normal_head_name">HAQQIMIZDA</p>
-
-                            <p class="normal_description">
-                                INNOSTART regionlarda startap təfəkkürünün formalaşması,  startap hərəkatının güclənməsi üçün həyata keçirilən layihədir.
-                            </p>
-
-                            <a href="./src/pages/haqqimizda.html">
-                                <button class="more_detailed_button">
-                                    <p class="more_detailed_text">DAHA ƏTRAFLI</p>
-
-                                    <img src="./src/assest/icon/arrow/right-arrow.svg" alt="">
-                                </button>
-                            </a>
+                        <div class="center">
+                            <div class="normal_img_body bg1"></div>
+    
+                            <div class="normal_right_body">
+                                <a class=" block" href="./src/pages/haqqimizda.html">
+                                    <p class="normal_head_name">HAQQIMIZDA</p>
+                                </a>
+    
+                                <p class="normal_description">
+                                    INNOSTART regionlarda startap təfəkkürünün formalaşması,  startap hərəkatının güclənməsi üçün həyata keçirilən layihədir.
+                                </p>
+    
+                                <a href="./src/pages/haqqimizda.html">
+                                    <button class="more_detailed_button">
+                                        <p class="more_detailed_text">DAHA ƏTRAFLI</p>
+    
+                                        <img src="./src/assest/icon/arrow/right-arrow.svg" alt="">
+                                    </button>
+                                </a>
+                            </div>
                         </div>
-                    </div>
                 </div>
 
                 <div class="diffrent_body shared_box pad_two ">
                     <div class="center2">
                         <div class="diffrent_left_body">
-                            <p class="diffrent_head_name">TƏDBİRLƏR</p>
+                            <a class="block" href="./src/pages/tedbirler.html">
+                                <p class="diffrent_head_name">TƏDBİRLƏR</p>
+                            </a>
     
                             <p class="diffrent_description">INNOSTART tədbirləri regionlarda startap icmasının inkişafı, startap təfəkkürünün formalaşması məqsədi ilə keçirilir. Panel müzakirə, “talk” və vörkşop formatında keçirilən tədbirlərdə iştirakçılara startap quruculuğu haqqında məlumat verilir.</p>
                         
@@ -167,7 +172,9 @@
                         <div class="normal_img_body bg3"></div>
 
                     <div class="normal_right_body">
-                        <p class="normal_head_name">İNKUBASİYA</p>
+                        <a class="block" href="./src/pages/inkubasiya.html">
+                            <p class="normal_head_name">İNKUBASİYA</p>
+                        </a>
 
                         <p class="normal_description">
                             İnkubasiya proqramı regionlarda yaşayan innovativ ideyası olan şəxslərin ideyalarını reallaşdırmaq məqsədi ilə həyata keçirilir. 6 ay davam edən proqramda startaplara təlimlərlə yanaşı mentorluq və texniki dəstəyi göstərilir.
@@ -187,8 +194,10 @@
                 <div class="diffrent_body shared_box pad_four ">
                     <div class="center2">
                         <div class="diffrent_left_body">
-                            <p class="diffrent_head_name">STARTAPLAR</p>
-    
+                            <a class="block" href="./src/pages/startuplar.html">
+                                <p class="diffrent_head_name">STARTAPLAR</p>
+                            </a>
+
                             <p class="diffrent_description">INNOSTART tədbirləri regionlarda startap icmasının inkişafı, startap təfəkkürünün formalaşması məqsədi ilə keçirilir. Panel müzakirə, “talk” və vörkşop formatında keçirilən tədbirlərdə iştirakçılara startap quruculuğu haqqında məlumat verilir.</p>
                         
                             <a href="./src/pages/startuplar.html">
@@ -336,10 +345,10 @@
                     </div>
                 </div>
 
-                <!-- <div class="gallery_body">
+                <div class="gallery_body">
                     <p class="gallery_body_text">QALEREYA</p>
 
-                    <a href="./src/pages/qalerya.html"><p class="gallery_body_title">Hamısı</p></a>
+                    <!-- <a href="./src/pages/qalerya.html"><p class="gallery_body_title">Hamısı</p></a>
                     <div class="owl-carousel">
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man.svg" alt="Öğe 1"></div>
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man2.svg" alt="Öğe 2"></div>
@@ -347,8 +356,24 @@
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man.svg" alt="Öğe 4"></div>
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man2.svg" alt="Öğe 5"></div>
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man3.svg" alt=""></div>
+                    </div> -->
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                          <div class="swiper-slide">Resize me!</div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
-                </div> -->
+                </div>
 
                     <div id="TƏŞKİLATÇILAR" class="organizers_body">
                         <p class="organizers_body_text">TƏŞKİLATÇILAR</p>
@@ -396,5 +421,6 @@
         <script src="./src/assest/js/hamburger-menu.js"></script>
         <script src="./src/assest/js/slider.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     </body>
 </html>
