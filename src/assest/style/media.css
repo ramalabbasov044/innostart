@@ -28,6 +28,9 @@
     .diffrent_left_body{
         width: 40%;
     }
+    #nav ul li a{
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:1326px){
@@ -280,6 +283,10 @@
     .main_text{
         font-size: 20px;
     }
+    .start_up_item{
+        padding-right: 100px;
+        padding-left: 60px;
+    }
 }
 
 @media screen and (max-width:760px){
@@ -329,6 +336,16 @@
     .main_head_text{
         font-size: 28px;
     }
+    .main_normal_text{
+        font-size: 20px;
+    }
+    .start_up_item{
+        padding-left: 40px;
+        padding-right: 80px;
+    }
+    .logo img{
+        width: 148px;
+    }
 }
 @media screen and (max-width:576px){
     .organizers_body_text{
@@ -363,6 +380,24 @@
     }
     .main_head_text{
         font-size: 20px;
+    }
+    .start_up_top img{
+        width: 70.613px;
+        height: 70.613px;
+    }
+    .name{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .work_name{
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .main_bold_text{
+        font-size: 30px;
+    }
+    .main_normal_text{
+        font-size: 16px;
     }
 }
 
@@ -520,6 +555,67 @@
     }
     .bd3{
         margin-top: 0px;
+    }
+    .start_up_item{
+        padding-left: 16px;
+        padding-right: 40px;
+    }
+    .start_up_top img{
+        width: 49.613px;
+        height: 49.613px;
+    }
+    .name{
+        color: #313131;
+        text-align: center;
+        font-size: 7.733px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.189px; /* 144.686% */
+    }
+    .work_name{
+        color: #313131;
+        font-size: 7.733px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.189px; /* 144.686% */
+    }
+    .main_bold_text{
+        color: #000;
+        font-size: 12.917px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14.667px; /* 113.544% */
+        letter-spacing: 0.103px;
+        margin-bottom: 6px;
+    }
+    .main_normal_text{
+        color: #000;
+        font-size: 7.046px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 9.394px; /* 133.333% */
+        letter-spacing: 0.033px;
+    }
+    .start_up_top{
+        gap: 5px;
+        margin-bottom: 14px;
+    }
+    .start_up_item{
+        padding: 20px 40px 21px 16px;
+    }
+    .logo img{
+        width: 118px;
+        height: 24.551px;
+    }
+    .afterOrange::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: 6px;
+        height: 16px;
+        background-color: #FF8100;
+        z-index: -1;
     }
 }
 

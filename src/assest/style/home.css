@@ -38,12 +38,21 @@ main{
     letter-spacing: 0.12px;
 }
 
+.afterOrange{
+    z-index: 99;
+    position: relative;
+}
+
 
 .afterOrange::after{
-    content: " ";
-    min-width: 100px;
-    height: 50px;
-    background-color: red;
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 10px;
+    height: 30px;
+    background-color: #FF8100;
+    z-index: -1;
 }
 
 
@@ -477,7 +486,3 @@ main{
   }
 
 
-
-.mentors_main{
-
-}
