@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="./src/assest/style/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
     <body>
         <header>
@@ -347,9 +348,9 @@
 
                 <div class="gallery_body">
                     <p class="gallery_body_text">QALEREYA</p>
+                     <a href="./src/pages/qalerya.html"><p class="gallery_body_title">Hamısı</p></a>
 
-                    <!-- <a href="./src/pages/qalerya.html"><p class="gallery_body_title">Hamısı</p></a>
-                    <div class="owl-carousel">
+                    <!-- <div class="owl-carousel">
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man.svg" alt="Öğe 1"></div>
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man2.svg" alt="Öğe 2"></div>
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man3.svg" alt="Öğe 3"></div>
@@ -357,25 +358,35 @@
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man2.svg" alt="Öğe 5"></div>
                         <div class="slide"><img src="./src/assest/icon/slider/slider-man3.svg" alt=""></div>
                     </div> -->
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                          <div class="swiper-slide">Resize me!</div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                    </div>
+
+                    <div class="wrapper">
+                        <img id="left" class="arrows" src="./src/assest/icon/arrow/left-arrow.svg" alt="">
+
+                        <ul class="carousel">
+                            <li class="card">
+                                <img src="./src/assest/icon/slider/slider-man.svg" alt="">
+                                <div class="bg-black"></div>
+                                <p class="bText">Qalereya</p>
+                                <a class="allA" href="./src/pages/qalerya.html">
+                                    <button class="allButton">Hamısı</button>
+                                </a>
+                            </li>
+                            <li class="card">
+                                <img src="./src/assest/icon/slider/slider-man2.svg" alt="">
+                            </li>
+                            <li class="card">
+                                <img src="./src/assest/icon/slider/slider-man3.svg" alt="">
+                            </li>
+                            <li class="card">
+                                <img src="./src/assest/icon/slider/slider-man3.svg" alt="">
+                            </li>
+                        </ul>
+                        
+                        <img id="right" class="arrows" src="./src/assest/icon/arrow/right-arrow.svg" alt="">
+                      </div>
                 </div>
 
-                    <div id="TƏŞKİLATÇILAR" class="organizers_body">
+                <div id="TƏŞKİLATÇILAR" class="organizers_body">
                         <p class="organizers_body_text">TƏŞKİLATÇILAR</p>
     
                         <div class="organizers_main">
@@ -387,7 +398,7 @@
                                 <img src="./src/assest/images/organizers-img2.svg" alt="">
                             </a>
                         </div>
-                    </div>
+                </div>
             </main>
 
         <footer>
@@ -418,9 +429,10 @@
             </div>
         </footer>
         
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="./src/assest/js/hamburger-menu.js"></script>
         <script src="./src/assest/js/slider.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     </body>
 </html>
