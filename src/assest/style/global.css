@@ -99,7 +99,9 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
+.footerLogo{
+    max-width: 202px;
+}
 .numberBody{
     display: flex;
     gap: 20.86px;
