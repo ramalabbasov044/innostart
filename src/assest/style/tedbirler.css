@@ -81,5 +81,9 @@ main{
 
 
 .pop_up_card2 img{
+    width: 307px;
     border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
