@@ -309,6 +309,15 @@
     .card img{
         width: 300px;
     }
+    .bg4{
+        display: none !important;
+    }
+    .res_image{
+        display: block;
+        height: 336px;
+        background-size: contain !important;
+        background-position: unset;
+    }
 }
 
 @media screen and (max-width:760px){
@@ -695,6 +704,20 @@
     .card img{
         height: 343px;
         border-radius: 12px;
+    }
+    .bg4{
+        display: none !important;
+    }
+    .res_image{
+        display: block;
+        height: 186px;
+        background-size: cover !important;
+    }
+    .mentors_card{
+        width: 130px;
+    }
+    .content{
+        left: -11%;
     }
     
 }
