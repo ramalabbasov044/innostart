@@ -711,7 +711,7 @@
     .res_image{
         display: block;
         height: 186px;
-        background-size: cover !important;
+        background-size: contain !important;
     }
     .mentors_card{
         width: 130px;
