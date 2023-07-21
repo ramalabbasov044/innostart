@@ -410,6 +410,11 @@ html {
 
 .bg4{
     background-image: url('../images/image/startuplar.svg');
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain !important;
+    background-color: white;
 }
 
 .bg5{
